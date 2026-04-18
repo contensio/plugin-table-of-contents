@@ -1,0 +1,22 @@
+{
+    "name": "contensio/plugin-table-of-contents",
+    "description": "Table of contents plugin for Contensio — auto-generated from H2/H3 heading blocks.",
+    "type": "contensio-plugin",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "contensio/core": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contensio\\Plugins\\TableOfContents\\": "src/"
+        }
+    },
+    "extra": {
+        "contensio": {
+            "providers": [
+                "Contensio\\Plugins\\TableOfContents\\TableOfContentsServiceProvider"
+            ]
+        }
+    }
+}
