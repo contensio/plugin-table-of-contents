@@ -14,7 +14,7 @@
 
 <script>
 (function () {
-    // Mirrors HeadingExtractor::slug() — must stay in sync.
+    // Mirrors HeadingExtractor::slug() - must stay in sync.
     function slugify(text, seen) {
         var base = text.toLowerCase()
             .replace(/[^\w\s-]/g, '')

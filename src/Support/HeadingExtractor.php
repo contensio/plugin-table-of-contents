@@ -100,7 +100,7 @@ class HeadingExtractor
      * Convert a heading text to a URL-safe slug, guaranteeing uniqueness within a page.
      * Matches the algorithm used by the frontend JavaScript in toc.blade.php.
      *
-     * @param  array<string,int>  $seen  Passed by reference — tracks used slugs
+     * @param  array<string,int>  $seen  Passed by reference - tracks used slugs
      */
     public static function slug(string $text, array &$seen): string
     {

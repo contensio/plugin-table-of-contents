@@ -39,7 +39,7 @@ No migrations required.
 | `heading` | `data.level` (h2 or h3) + `translations[$langId].text` |
 | `richtext` | `/<(h[23])[^>]*>(.*?)<\/h[23]>/` matched against the HTML |
 
-H4 and deeper are intentionally excluded — they're too granular for navigation.
+H4 and deeper are intentionally excluded - they're too granular for navigation.
 
 ### Slug algorithm
 
@@ -58,7 +58,7 @@ This guarantees that the TOC `href="#slug"` always matches the `id` added by the
 
 ### Hook placement
 
-Hooks into `contensio/frontend/post-before-content` — fires just before the blocks wrapper `<div class="contensio-post-body">`.
+Hooks into `contensio/frontend/post-before-content` - fires just before the blocks wrapper `<div class="contensio-post-body">`.
 
 ### JS heading IDs
 
@@ -86,7 +86,7 @@ private const MIN_HEADINGS = 2;
 resources/views/vendor/toc/partials/toc.blade.php
 ```
 
-Available: `$headings` — array of `['level' => 'h2'|'h3', 'text' => string, 'id' => string]`.
+Available: `$headings` - array of `['level' => 'h2'|'h3', 'text' => string, 'id' => string]`.
 
 ### Collapsible TOC
 

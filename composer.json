@@ -1,6 +1,6 @@
 {
     "name": "contensio/plugin-table-of-contents",
-    "description": "Table of contents plugin for Contensio — auto-generated from H2/H3 heading blocks.",
+    "description": "Table of contents plugin for Contensio - auto-generated from H2/H3 heading blocks.",
     "type": "contensio-plugin",
     "license": "MIT",
     "require": {

@@ -4,7 +4,7 @@
     "description": "Auto-generates a table of contents from H2 and H3 headings in the post body, injected inline before the content.",
     "author": "Contensio",
     "author_url": "https://contensio.com",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "provider": "Contensio\\Plugins\\TableOfContents\\TableOfContentsServiceProvider",
     "autoload": {
         "psr-4": {
